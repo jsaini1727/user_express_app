@@ -1,1 +1,26 @@
-[]
+[
+    {
+        "id": 1,
+        "username": "Jas",
+        "email": "abc@gmail.com",
+        "password": "12345"
+    },
+    {
+        "id": 2,
+        "username": "Tom",
+        "email": "abc@gmail.com",
+        "password": "45678"
+    },
+    {
+        "id": 3,
+        "username": "Bruce",
+        "email": "abc@gmail.com",
+        "password": "6789"
+    },
+    {
+        "id": 4,
+        "username": "John",
+        "email": "abc@gmail.com",
+        "password": "01235"
+    }
+]
