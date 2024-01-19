@@ -1,0 +1,16 @@
+body{
+    background-color:#555;
+    color: #eee;
+    font-family: sans-serif;
+    padding: 8px 5%;
+}
+
+.text-center{
+    text-align: center;
+}
+
+p span {
+    background-color: 222;
+    padding: 2px 5px;
+    color: yellow;
+}
