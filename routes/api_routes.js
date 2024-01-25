@@ -3,11 +3,6 @@ const fs = require('fs');
 
 const db = require('../db/connection');
 
-// const { v4 } = require('uuid');
-// const { getUserData, saveUserData } = require('../db');
-
-// local host : 3333/api/users
-
 // Route to retreive/GET all users from the json database
 router.get('/users', async (requestObj, responseObj) => {
 
@@ -22,8 +17,6 @@ router.get('/users', async (requestObj, responseObj) => {
     }
 
 });
-
-
 
 // Route to add a user to the json database
 router.post('/users', async (requestObj, responseObj) => {
@@ -56,14 +49,11 @@ router.post('/users', async (requestObj, responseObj) => {
     } catch (err) {
         console.log(err);
     }
-
 });
-
 
 // Route to return a user by ID
 router.get('/users/:id', async (requestObj, responseObj) => {
     const user_id = requestObj.params.id;
-
 
     try {
 
@@ -86,7 +76,6 @@ router.get('/users/:id', async (requestObj, responseObj) => {
 
 });
 
-
 // Route to delete a user from the database
 router.delete('/user/:id', async (requestObj, responseObj) => {
     // const users = await getUserData();
@@ -103,7 +92,6 @@ router.delete('/user/:id', async (requestObj, responseObj) => {
     } catch (err) {
         console.log(err);
     }
-
 });
 
 
